@@ -1,1 +1,10 @@
-
+:root {
+    --name: iTunity;
+    --text-color: #fff;
+    --back-color: #fff3;
+    --over-color: #fefefe;
+    --popup-text-color: #000000;
+    --border: none;
+    --pasxalka: https://www.t.me/ch_blog_xiaomi;
+    --has-pasxalka-work: 'true';
+}
