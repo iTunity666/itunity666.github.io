@@ -20,7 +20,7 @@ $(function() {
 });
 $(function() {
   $(".typed").typed({
-      strings: ['joyeuse user ', "evox shit ", "ximi for gays ", "plz kernal for pabj ", "0 y.o ", "rf0x1d gay ", "fet "],
+      strings: ['curtana user ', "miui shit ", "ximi for gays ", "fucking slave ", "12 y.o ", "rf0x1d gay ", "cum "],
       typeSpeed: 100,
       loop: true,
       cursorChar: "|",
