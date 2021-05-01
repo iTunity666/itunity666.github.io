@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>iNeoony</title>
+        <meta property="og:title" content="igandone">
+        <meta property="og:locale" content="en_EU">
+        <meta property="og:description" content="iNeoony's site">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/favico/eblan.png" type="image/png">
+        <script src="https://sindresorhus.com/devtools-detect/index.js"></script>
+        <link rel="stylesheet" href="assets/fonts/gothampro/style.css">
+        <link rel="stylesheet" href="assets/vars.css">
+        <link rel="stylesheet" href="assets/css/index/style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="assets/js/text.js"></script>
+        <script src="assets/js/typed.min.js"></script>
+        <meta name="theme-color" content="#C21CC7">
+       
+    </head>
+    <body class="center">
+        <script>
+                document.body.style.backgroundImage = "url('assets/images/bg.jpg')";
+        </script>
+        <div id="donate">
+            <div class="popup">
+                <h1>Donate</h1>
+                <p align="center">
+                    <h3><span class="font-size=larger">Отправляя донат, вы поддерживаете автора.</span></h3>                    
+                    <h2>Select payment method</h2>
+                    <p align="center">
+                        <input type="button" class="btn" value="QIWI" onclick="location.href='https://qiwi.com/n/NEOONY'">
+                    </p>
+                    <p align="center"><input class="btn" type="button" value="Close" title="Close" onclick="document.getElementById('donate').style.display='none';"></p>
+                </p>
+            </div>
+        </div>
+        <div id="gitlink">
+            <div class="popup">
+                <h1>Git</h1>
+                <p align="center">
+                    <h3><span class="font-size=larger">Не звони сюда больше</span></h3>                    
+                    <h2>Select Git page</h2>
+                    <p align="center">
+                        <input type="button" class="btn" value="Github" onclick="location.href='https://github.com/iNeoony'">
+                        <input type="button" class="btn" value="OpenGays" onclick="location.href='https://github.com/OpenGays'">
+                    </p>
+                    <p align="center"><input class="btn" type="button" value="Close" title="Close" onclick="document.getElementById('gitlink').style.display='none';"></p>
+                </p>
+            </div>
+        </div>
+        <header class="center info">
+            <div class="center pizdec">
+                <div class="avatar-container"><img src="assets/images/avatar.png" oncontextmenu="return false;" class="avatar"></div>
+                <h2><span id="name">iNeoony</span></h2>
+                <hr width="295">
+                <h3><span class="typed">fet</span><span class="typed-cursor">|</span></h3>
+                <hr width="295">
+                <div class="buttons">
+                        <script>
+                            document.currentScript.parentElement.volume = 0.50;
+                        </script>
+                </div>
+                <h2>Links</h2>
+            </div>
+            <div class="buttons">
+                <a href="javascript://" class="link" onclick="location.href='http://t.me/iNeoony'">Telegram</a>
+                <a href="javascript://" class="link" onclick="location.href='https://vk.com/neoony'">VK</a>
+                <a href="javascript://" class="link" onclick="location.href='https://steamcommunity.com/profiles/76561199073100097/'">Steam</a>
+            </div>
+            <div class="buttons">
+                <a href="javascript://" class="link" onclick="document.getElementById('gitlink').style.display='block'">Git</a>
+            </div>
+            <div class="buttons">
+                <a href="javascript://" class="link" onclick="document.getElementById('donate').style.display='block'">Donate</a>
+            </div>
+            <p>
+            <h9><span id="name">2021 © | coded by rf0x1d</span></h9>
+            </p>
+        </header>
+    </body>
+</html>
